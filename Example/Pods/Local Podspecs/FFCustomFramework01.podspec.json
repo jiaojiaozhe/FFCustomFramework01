@@ -1,0 +1,22 @@
+{
+  "name": "FFCustomFramework01",
+  "version": "0.0.1",
+  "summary": "CustomFrameWork01的第一个示例",
+  "description": "TODO: FFCustomFramework01的第一个示例",
+  "homepage": "https://github.com/jiaojiaozhe/FFCustomFramework01",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiaojiaozhe": "lanbiao@fengnian.cn"
+  },
+  "source": {
+    "git": "https://github.com/jiaojiaozhe/FFCustomFramework01.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FFCustomFramework01/Classes/**/*"
+}

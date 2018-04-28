@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1037294E0FCD0A20869BCE2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1037294E0FCD0A20869BCE2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		14A65A4413BC45435E8AE8AA /* Pods-FFCustomFramework01_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCustomFramework01_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFCustomFramework01_Tests/Pods-FFCustomFramework01_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		16F8E8B78E5F8EC3A7540DEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		16F8E8B78E5F8EC3A7540DEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		295B12731AB43B954435208E /* Pods_FFCustomFramework01_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFCustomFramework01_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB361AB1B3E4B04C4E01254 /* Pods_FFCustomFramework01_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFCustomFramework01_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* FFCustomFramework01_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFCustomFramework01_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +66,7 @@
 		74862D8F03746C60090817C6 /* Pods-FFCustomFramework01_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCustomFramework01_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFCustomFramework01_Tests/Pods-FFCustomFramework01_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6D18D738512F167A206FEE8 /* Pods-FFCustomFramework01_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCustomFramework01_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFCustomFramework01_Example/Pods-FFCustomFramework01_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D3E98F94EDEE299827F1E956 /* FFCustomFramework01.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFCustomFramework01.podspec; path = ../FFCustomFramework01.podspec; sourceTree = "<group>"; };
+		D3E98F94EDEE299827F1E956 /* FFCustomFramework01.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFCustomFramework01.podspec; path = ../FFCustomFramework01.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = jiaojiaozhe;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 3AGWUAQ7VV;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -533,6 +536,7 @@
 			baseConfigurationReference = A6D18D738512F167A206FEE8 /* Pods-FFCustomFramework01_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3AGWUAQ7VV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFCustomFramework01/FFCustomFramework01-Prefix.pch";
 				INFOPLIST_FILE = "FFCustomFramework01/FFCustomFramework01-Info.plist";
@@ -548,6 +552,7 @@
 			baseConfigurationReference = 724B603466173DBE9AC586FB /* Pods-FFCustomFramework01_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3AGWUAQ7VV;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFCustomFramework01/FFCustomFramework01-Prefix.pch";
 				INFOPLIST_FILE = "FFCustomFramework01/FFCustomFramework01-Info.plist";

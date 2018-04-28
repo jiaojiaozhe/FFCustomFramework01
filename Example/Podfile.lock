@@ -1,0 +1,16 @@
+PODS:
+  - FFCustomFramework01 (0.0.1)
+
+DEPENDENCIES:
+  - FFCustomFramework01 (from `../`)
+
+EXTERNAL SOURCES:
+  FFCustomFramework01:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FFCustomFramework01: 55d16f364cd0c6d8f6bc2bc1eb7e5c294f72427f
+
+PODFILE CHECKSUM: af241db7d48904883343ce362e035a0ff8c894c2
+
+COCOAPODS: 1.4.0
