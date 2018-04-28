@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FFCustomFramework01_Example' do
+  pod 'FFCustomFramework01', :path => '../'
+
+  target 'FFCustomFramework01_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
